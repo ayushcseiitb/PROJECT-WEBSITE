@@ -237,7 +237,7 @@ for spine in ax3.spines.values():
 plt.xticks(size='50',color='white')
 plt.yticks(size='50',color='white')
 ax3.set_xlabel('State/UnionTerritory',size=75,color="white")
-ax3.set_ylabel('Positive Confirmed Cases',size=75,color="white")
+ax3.set_ylabel('Positive Confirmed Cases(in Cr)',size=75,color="white")
 ax3.set_title('Overall +ve Cases vs States',size=80,color="white")
 plt.bar(x,y,color=mycol,linewidth=8,edgecolor='white')
 for i,height in zip(x,y):
@@ -353,7 +353,7 @@ for spine in ax2.spines.values():
 plt.xticks(size='50',color='white')
 plt.yticks(size='50',color='white')
 ax2.set_xlabel('State/UnionTerritory',size="70",color="white")
-ax2.set_ylabel('Vaccinated People(in Cr)',size="70",color="white")
+ax2.set_ylabel('Vaccinated People',size="70",color="white")
 ax2.set_title('Top 10 states with least vaccinated people in India',size=80,color="white")
 mycol=["bisque","darkseagreen","chocolate","gold","pink","royalblue","lime","coral","violet","aqua"]
 plt.bar(x_axis,y_axis,color=mycol,linewidth=8,edgecolor='white')
