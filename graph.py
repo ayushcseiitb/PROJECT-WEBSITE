@@ -79,9 +79,9 @@ for row in my_data:
 for i in range(5):
         print(my_data[i])
 # plotting graph between mortality rate vs recovery rate
-colors ={5:'red', 6:'blue'}
+colors ={5:'blue', 6:'red'}
 lss ={5:'-', 6:'-.'}
-label={5:'Mortality Rate', 6:'Recovery Rate'}
+label={5:'Recovery Rate', 6:'Mortality Rate'}
 x_axis= list(map(lambda r:r[1],my_data))
 plt.figure(figsize=(15,8),facecolor="black")
 ax2=plt.axes()
