@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0%;
+          overflow: hidden;
+          background-color:white;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color:black;
+          font-size: 150%;
+          text-align: center;
+          padding: 14px 28px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: red;
+        }
+        p{
+            font-size: 150%;
+            color: white;
+        }
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+        </style>
+    <title>Covid Data Analysis</title>
+</head>
+<body style="background-color:black;padding: 0%;margin: 0%;">
+  
+    <ul>
+      <li><img src="index.png" width="25%"></li>
+        <li><a href="my.html">Home</a></li>
+        <li><a href="#graph">Graphs</a></li>
+        
+    </ul>
+      
+            <h1 style="text-align:center;font-size:300%; color:white;">Covid Data Analysis</h1>
+           <img src="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/styles/featured_media_detail/public/advanced_page/featured_media/coronavirus-banner.jpg?Q5nNiocqqI30_Jy2.RwhGYpwU7fNVCAp&itok=REf-9mAr"alt="Covid Image Loading" class="center">
+<br>
+<br>
+<div >
+<p> It's more crucial than ever to have easy ways to see and comprehend data in our increasingly data-driven environment. Graphs offer a simple and effective approach to notify the general public and citizens of important COVID-19 data points, such as death rates, mortality rate, which states healthcare perform better and which perform poor in the pandemic, the availability of medical facilities, and much more. Through this webpage we are providing graphs which visualize data of covid –19 so as to present data to non-technical audiences without confusion.</p>
+</div>
+<br>
+<h2><u>Datasets:</u></h2>
+<p>Below are the links of Datasets which we used to plot graphs<p>
+    
+    <br>
+    <br>
+    <br>
+    
+  
+    <div id = graph></div>
+    <h2 style="color: white;font-size: 200%;"><u>Graphs</u></h2>
+    <p><u>1.)Comparision of Mortality Rate and Recover Rate across different states : </u><br><br> The Mortality rate is easy to calculate. You take the number of people who have died from covid, and you divide it by the total number of people tested positive of covid. So, if 5 people have died, and 20 people have been tested positive of covid, the Mortality rate is [5 / 20], or 25%. The Recovery rate is number of people who have been cured from covid, and you divide it by the total number of people tested positive of covid. So, if 5 people have died, and 20 people have been tested positive of covid, the Recovery rate is [15 / 20], or 75%. </p>
+    <img src ="rate.png" class="centre" width ="80%" height="45%">
+    <p><u>2.)Top 10 States with high active cases : </u><br><br> Remember that the real number of cases may be significantly greater than the number of confirmed cases given here in states that conduct very limited testing. </p>
+<img src ="active10.jpeg" class="centre" width ="80%" height="45%">
+<br>
+<p><u>3.)Top 10 States with most Deaths by Covid 19 : </u><br><br> Due to insufficient testing and issues with the attribution of the cause of death, the true death toll from COVID-19 is likely to be higher than the number of documented deaths. So, reported confirmed deaths differ from actual deaths and it varies from state to state. States also may vary in their methods for recording COVID-19 deaths (e.g., some states may only count hospital deaths, while others also include deaths in homes). </p>
+<img src ="death10.jpeg" class="centre" width ="80%" height="45%">
+<p><u>4.)Growth rate of Top 5 states with high active cases: </u><br><br> Here we are checking the growth rate of the states with highest active cases. From this graph we can see that from the month of August till October in 2020 there was a spike in active cases and from April to June of 2021 there was a steep rise in number of active cases. </p>
+<img src ="growth.png" class="centre" width ="80%" height="45%">
+<p><u>5.)Male VS Female Vaccination ratio: </u><br><br></p>
+<img src ="pievac.jpeg" class="centre" width ="70%" height="40%">
+<p><u>6.)Top 10 States with most vaccinated people: </u><br><br></p>
+<img src ="vacmost10.jpeg" class="centre" width ="80%" height="40%">
+<p><u>7.)Top 10 States with least vaccinated people:</u><br><br></p>
+<img src ="lessvac10.jpeg" class="centre" width ="80%" height="50%">
+<p><u>8.)Top 10 States with highest confirmed covid cases:</u><br><br></p>
+<img src ="overposcase10.jpeg" class="centre" width ="80%" height="50%">
+<p><u>9.)States with least confirmed covid cases:</u><br><br></p>
+<img src ="overposless10.jpeg" class="centre" width ="80%" height="50%">
+<p><u>10.)Per day covid confirmed cases:</u><br><br> With this graph we can see the spike in confirmed cases which tells us the time when covid was at its peak.</p>
+<img src ="growpos.png" class="centre" width ="80%" height="50%">
+
+<br><br>
+
+
+</body>
+</html>
